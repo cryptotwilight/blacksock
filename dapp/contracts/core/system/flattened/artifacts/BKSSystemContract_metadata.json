@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_version",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "cryptotwilight",
+			"custom:buidl": "Buidl Up 2023 https://www.buidlbox.io",
+			"custom:contact": "@blockstarlogic1 (Twitter)",
+			"details": "This is the super contract for system contracts in the Black Sock decentralized social protocol",
+			"kind": "dev",
+			"methods": {},
+			"title": "Black Sock - System Contract",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/core/system/flattened/BKSDirectory_flattened.sol": "BKSSystemContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/core/system/flattened/BKSDirectory_flattened.sol": {
+			"keccak256": "0x037b2bbb7f35ac7395b5ec45bf1658074a1d914efada7b138b51d8ed635b0f23",
+			"urls": [
+				"bzz-raw://651de22d80cf5a24aabc6b4a0d475d322c9b45ebaae193b5f34b77af66541889",
+				"dweb:/ipfs/Qmf5G2boXsWDA3BediCWP6sMW3VtmbmAenGwPb1jxqhnCN"
+			]
+		}
+	},
+	"version": 1
+}
