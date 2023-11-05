@@ -17,20 +17,18 @@ Security is achieved through the use of a directory and register architecture wh
 The addresses below are for the Linea Goerli Testnet 
 |Contract | Address | Description| 
 |----------|-----------|---------|
-|BKS Register|[0x58CffF5FC7Ec84aDAa91753516A71E997df616Ed](https://explorer.goerli.linea.build/address/0x58CffF5FC7Ec84aDAa91753516A71E997df616Ed)|**BACK END CONTRACT** Main operational contract register|
-|BKS Directory|[0x74D4ccb33E80E9A79d8aC1D1880dA9E66Da91c2e](https://explorer.goerli.linea.build/address/0x74D4ccb33E80E9A79d8aC1D1880dA9E66Da91c2e)|**BACK END CONTRACT** Main estate directory|
-|Black Sock Test Reward Token|[0xFd7aB9E7f4f51a6Be45257CC14e45481FB535986](https://explorer.goerli.linea.build/address/0xFd7aB9E7f4f51a6Be45257CC14e45481FB535986)|Token for user rewards|
-|BKS Reward Service|[0xbE0503E7430BAEb4A673945b2E0D1db9777C44D1](https://explorer.goerli.linea.build/address/0xbE0503E7430BAEb4A673945b2E0D1db9777C44D1)|**BACK END CONTRACT** Reward issuance service|
-|BKS Profile Register|[0x38872A6AfD9a2Ea0d027920679F8110f0155d1fC](https://explorer.goerli.linea.build/address/0x38872A6AfD9a2Ea0d027920679F8110f0155d1fC)|Profile Register registers all profiles created by users|
-|Black Sock|[0x0EDb0587D806a58cF4f1246849e3c2fE8dE53017](https://explorer.goerli.linea.build/address/0x0EDb0587D806a58cF4f1246849e3c2fE8dE53017)|Main Entry Point into the Black Sock protocol |
-|BKS Media Module Factory|[0x37763B7bC86E683B0E134Ce39bF2A160894Fddc2](https://explorer.goerli.linea.build/address/0x37763B7bC86E683B0E134Ce39bF2A160894Fddc2)|**BACK END CONTRACT** Produces user Media Modules for upload and share|
-|BKS Minted Media Contract Factory|[0x54EeE06C073C8838fA59b858018B913649e896d4](https://explorer.goerli.linea.build/address/0x54EeE06C073C8838fA59b858018B913649e896d4)|**BACK END CONTRACT** Produces NFT contracts which users use to mint media|
-|BKS Money Module Factory|[0xA68E9f0fA58434A3659a1e5b3A3FE88016E7ca7f](https://explorer.goerli.linea.build/address/0xA68E9f0fA58434A3659a1e5b3A3FE88016E7ca7f)|**BACK END CONTRACT** Produces Money modules enabling users to manage payments and set prices|
-|BKS People Module Factory|[0x7Ec49C3549Dc642BB17E6BbA6242C88E40549654](https://explorer.goerli.linea.build/address/0x7Ec49C3549Dc642BB17E6BbA6242C88E40549654)|**BACK END CONTRACT** Produces People modules that enable users to connect and moderate their connections |
-|BKS Profile Factory|[0x729A3b74BEC81C89defBedFd90F41C53dA966D23](https://explorer.goerli.linea.build/address/0x729A3b74BEC81C89defBedFd90F41C53dA966D23)|**BACK END CONTRACT** Creates user profiles  |
-|BKS Reward Module Factory|[0x796726e6a6821c6988A22C9a665A7323798a0321](https://explorer.goerli.linea.build/address/0x796726e6a6821c6988A22C9a665A7323798a0321)|**BACK END CONTRACT** Produces Reward Modules that enable users to manage their rewards|
+|Black Sock Test Reward Token|[0x5a86c39322c972607b2080F67BEe46D2F1e37869](https://explorer.goerli.linea.build/address/0x5a86c39322c972607b2080F67BEe46D2F1e37869/contracts#address-tabs)|Token for user rewards|
+|BKS Profile Register|[0x85DA54b234D90B9007400108f1c48eA10c508e6d](https://explorer.goerli.linea.build/address/0x85DA54b234D90B9007400108f1c48eA10c508e6d/contracts#address-tabs)|Profile Register registers all profiles created by users|
+|Black Sock|[0xfB6239a551CD7D068Be37AcFc38D524840273082](https://explorer.goerli.linea.build/address/0xfB6239a551CD7D068Be37AcFc38D524840273082/contracts#address-tabs)|Main Entry Point into the Black Sock protocol |
+||**BACK OFFICE CONTRACTS**|||
+|BKS Ops Register|[0xb717E2043F36Cb5BBB60CDD73D4B531018b3Dfea](https://explorer.goerli.linea.build/address/0xb717E2043F36Cb5BBB60CDD73D4B531018b3Dfea/contracts#address-tabs)|**BACK END CONTRACT** Main operational contract register|
+|BKS Reward Service|[0x5c895D381a18F4Dd8ea01069b139c14b85EB9bd0](https://explorer.goerli.linea.build/address/0x5c895D381a18F4Dd8ea01069b139c14b85EB9bd0/contracts#address-tabs)|**BACK END (DEVELOPER) CONTRACT** Reward issuance service|
+|BKS Directory|[0xb93d77aCBe0A4a9d1C9C0fe3Fb65F32578c8d530](https://explorer.goerli.linea.build/address/0xb93d77aCBe0A4a9d1C9C0fe3Fb65F32578c8d530/contracts#address-tabs)|**BACK END CONTRACT** Main estate directory|
+|BKS Media Module Factory|[0x26e57Db8EbEc157817Dacc051B7749050B3D2bb4](https://explorer.goerli.linea.build/address/0x26e57Db8EbEc157817Dacc051B7749050B3D2bb4/contracts#address-tabs)|**BACK END CONTRACT** Produces user Media Modules for upload and share|
+|BKS Minted Media Contract Factory|[0x4053F9A009B8b3afaFD8C83ed8Fb804B629fFbE2](https://explorer.goerli.linea.build/address/0x4053F9A009B8b3afaFD8C83ed8Fb804B629fFbE2/contracts#address-tabs)|**BACK END CONTRACT** Produces NFT contracts which users use to mint media|
+|BKS Money Module Factory|[0x960b11f46df9c76f6303E2b3C62435ED5Db175F9](https://explorer.goerli.linea.build/address/0x960b11f46df9c76f6303E2b3C62435ED5Db175F9/contracts#address-tabs)|**BACK END CONTRACT** Produces Money modules enabling users to manage payments and set prices|
+|BKS People Module Factory|[0xF34b3151E7bbb772a0A65C990a45A4761e3A94c5](https://explorer.goerli.linea.build/address/0xF34b3151E7bbb772a0A65C990a45A4761e3A94c5/contracts#address-tabs)|**BACK END CONTRACT** Produces People modules that enable users to connect and moderate their connections |
+|BKS Profile Factory|[0x46DD782566673DF8BC3a867bba26b938252B4EC2](https://explorer.goerli.linea.build/address/0x46DD782566673DF8BC3a867bba26b938252B4EC2/contracts#address-tabs)|**BACK END CONTRACT** Creates user profiles  |
+|BKS Reward Module Factory|[0x296724acbad4D2440a259528d13d542f37A7C153](https://explorer.goerli.linea.build/address/0x296724acbad4D2440a259528d13d542f37A7C153/contracts#address-tabs)|**BACK END CONTRACT** Produces Reward Modules that enable users to manage their rewards|
 |BKS Stream Module Factory|[0xABBD4228Fd397946E08656f05B3A83f8C37323f7](https://explorer.goerli.linea.build/address/0xABBD4228Fd397946E08656f05B3A83f8C37323f7)|**BACK END CONTRACT** Produces Stream Modules that enable users to manage their Black Sock media streams|
-|BKS Module Register Factory|[0xa7898B80483d3E942ec30A1F68Dca600AF790af3](https://explorer.goerli.linea.build/address/0xa7898B80483d3E942ec30A1F68Dca600AF790af3)|**BACK END CONTRACT** Creates a user's personal module register where they can access new functions|
-
-## How to Deploy
-The steps to deploy the Black Sock 
+|BKS Module Register Factory|[0xb94573Ab9D9Bf05201D7340B8d7A25dDc2e0497C](https://explorer.goerli.linea.build/address/0xb94573Ab9D9Bf05201D7340B8d7A25dDc2e0497C/contracts#address-tabs)|**BACK END CONTRACT** Creates a user's personal module register where they can access new functions|
